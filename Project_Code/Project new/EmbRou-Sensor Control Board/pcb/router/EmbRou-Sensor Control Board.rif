@@ -1,0 +1,2195 @@
+.rif 16.0
+
+.chg
+NONE
+.cfg
+ATTR
+AREA	E	"*"	I
+"opt_trk_trk"	E
+"opt_trk_via"	E
+"opt_trk_pin"	E
+"space_cop_prf"	E
+"space_cop_cop"	E
+"space_smd_prf"	E
+"space_smd_cop"	E
+"space_smd_smd"	E
+"space_pin_prf"	E
+"space_pin_cop"	E
+"space_pin_smd"	E
+"space_pin_pin"	E
+"space_via_prf"	E
+"space_via_cop"	E
+"space_via_via"	E
+"space_via_smd"	E
+"space_via_pin"	E
+"space_trk_prf"	E
+"space_trk_cop"	E
+"space_trk_trk"	E
+"space_trk_via"	E
+"space_trk_smd"	E
+"space_trk_pin"	E
+ATTR
+PAD_CODE	E	"*"	I
+"teargenrule"	E
+ATTR
+NET	E	"*"	I
+"net_via"	N
+"net_max_width"	N
+"net_min_width"	N
+"net_opt_width"	N
+"net_width"	N
+"volt_amplitude"	N
+"via_delay"	N
+"src_pin_order"	N
+"rise_time"	N
+"spacing_class"	E
+"net_class"	E
+"net_topology"	E
+"net_testpoints"	E
+ATTR
+PIN	E	"*"	I
+"pin_exit_dirs"	N
+"smd_via"	E
+"pin_test"	E
+ATTR
+BOARD	E	"*"	I
+"checksum"	I
+"suppress_via"	N
+"suppress_pin"	N
+"via_layer_pairs"	N
+"no_backoff"	N
+"smd_via"	E
+"teargenrule"	E
+"min_width"	E
+"stacked_vias"	E
+"min_len_fat"	E
+"min_len_thin"	E
+"miter_max"	E
+"miter_min"	E
+"opt_trk_trk"	E
+"opt_trk_via"	E
+"opt_trk_pin"	E
+"space_drl_drl"	E
+"space_tpt_plc"	E
+"space_tpt_prf"	E
+"space_tpt_tpt"	E
+"space_cop_prf"	E
+"space_cop_cop"	E
+"space_smd_prf"	E
+"space_smd_cop"	E
+"space_smd_smd"	E
+"space_pin_prf"	E
+"space_pin_cop"	E
+"space_pin_smd"	E
+"space_pin_pin"	E
+"space_via_prf"	E
+"space_via_cop"	E
+"space_via_via"	E
+"space_via_smd"	E
+"space_via_pin"	E
+"space_trk_prf"	E
+"space_trk_cop"	E
+"space_trk_trk"	E
+"space_trk_via"	E
+"space_trk_smd"	E
+"space_trk_pin"	E
+"ppp_ignore_via_to_prof"	E
+"ppp_ignore_pin_to_prof"	E
+"ppp_is_plane"	E
+"ppp_auto_repour"	E
+"ppp_ignore_res"	E
+"ppp_box_pins"	E
+"ppp_signal"	E
+"ppp_relief_type"	E
+"ppp_out_width"	E
+"ppp_isolation"	E
+"ppp_sliver"	E
+"ppp_via_relief"	E
+"ppp_pad_relief"	E
+"ppp_keep_disj"	E
+"ppp_keep_iso"	E
+"ppp_clearance"	E
+"ppp_con_width"	E
+ATTR
+TEMPLATE	E	"*"	I
+"ppp_ignore_via_to_prof"	E
+"ppp_ignore_pin_to_prof"	E
+"ppp_is_plane"	E
+"ppp_auto_repour"	E
+"ppp_ignore_res"	E
+"ppp_box_pins"	E
+"ppp_signal"	E
+"ppp_relief_type"	E
+"ppp_out_width"	E
+"ppp_isolation"	E
+"ppp_sliver"	E
+"ppp_keep_disj"	E
+"ppp_keep_iso"	E
+"ppp_via_relief"	E
+"ppp_pad_relief"	E
+"ppp_clearance"	E
+"ppp_con_width"	E
+ATTR
+CLASS	E	"*"	I
+"net_topology"	E
+"volt_amplitude"	E
+"via_delay"	E
+"src_pin_order"	E
+"rise_time"	E
+ATTR
+SPACING	E	"*"	I
+"space_any_any"	E
+DIALOG
+RULE
+SHAPE
+POWER_PLANE
+TEMPLATE
+NO_TRACK_AREA
+NO_VIA_AREA
+ROUTE_AREA
+COPPER
+
+.btp
+1	63500	G	63500
+C	1	2
+DESTYPE	cadstar
+
+attr	"lay_embed"	"ABOVE"
+attr	"cond_thickness"	"0.0254mm"
+attr	"diel_constant"	"4.7"
+attr	"diel_thickness"	"0.254mm"
+attr	"stub_fraction"	"0.1"
+attr	"dist_cap"	"TRUE"
+attr	"cvia"	"1pF"
+attr	"Z_tol"	"10.0%"
+attr	"char_Z"	"70Ohms"
+attr	"voh"	"5.0V"
+attr	"vol"	"0.0V"
+attr	"cpin"	"1pF"
+attr	"tthl"	"5ns"
+attr	"ttlh"	"5ns"
+attr	"min_len_fat"	"63500ds"
+attr	"min_len_thin"	"63500ds"
+attr	"miter_max"	"1270000ds"
+attr	"miter_min"	"63500ds"
+attr	"opt_trk_via"	"30480ds"
+attr	"opt_trk_pin"	"30480ds"
+attr	"opt_trk_trk"	"30480ds"
+attr	"space_tpt_plc"	"100000ds"
+attr	"space_tpt_tpt"	"100000ds"
+attr	"space_tpt_prf"	"100000ds"
+attr	"space_smd_smd"	"30480ds"
+attr	"space_smd_cop"	"30480ds"
+attr	"space_smd_prf"	"30480ds"
+attr	"space_trk_smd"	"30480ds"
+attr	"space_via_smd"	"30480ds"
+attr	"space_pin_smd"	"30480ds"
+attr	"space_drl_drl"	"50800ds"
+attr	"space_cop_prf"	"30480ds"
+attr	"space_cop_cop"	"30480ds"
+attr	"space_via_prf"	"30480ds"
+attr	"space_via_cop"	"30480ds"
+attr	"space_via_via"	"30480ds"
+attr	"space_pin_prf"	"30480ds"
+attr	"space_pin_cop"	"30480ds"
+attr	"space_via_pin"	"30480ds"
+attr	"space_pin_pin"	"30480ds"
+attr	"space_trk_prf"	"30480ds"
+attr	"space_trk_cop"	"30480ds"
+attr	"space_trk_via"	"30480ds"
+attr	"space_trk_pin"	"30480ds"
+attr	"space_trk_trk"	"30480ds"
+attr	"no_backoff"	"track"
+attr	"ppp_ignore_via_to_prof"	"N"
+attr	"ppp_ignore_pin_to_prof"	"N"
+attr	"ppp_is_plane"	"N"
+attr	"ppp_auto_repour"	"N"
+attr	"ppp_box_pins"	"N"
+attr	"ppp_ignore_res"	"N"
+attr	"ppp_relief_type"	"CROSS"
+attr	"ppp_via_relief"	"  0.000"
+attr	"ppp_pad_relief"	"  0.000"
+attr	"ppp_isolation"	"20th"
+attr	"ppp_sliver"	"20th"
+attr	"ppp_clearance"	"20th"
+attr	"ppp_con_width"	"10th"
+attr	"ppp_out_width"	"10th"
+attr	"ppp_keep_disj"	"N"
+attr	"ppp_keep_iso"	"N"
+attr	"plc_grid"	"127000ds"
+attr	"min_width"	"12700ds"
+attr	"via_layer_pairs"	"1-2"
+attr	"stacked_vias"	"N"
+attr	"rif_synchronisation"	"39706"
+attr	"checksum"	"1823978723"
+
+.rol
+1	"Top"	U
+
+attr	"lay_embed"	"ABOVE"
+2	"Bot"	U
+
+attr	"lay_embed"	"ABOVE"
+
+.boa
+FILL	4
+1270000	5080000	8890000	5080000	0
+8890000	5080000	8890000	508000	0
+8890000	508000	1270000	508000	0
+1270000	508000	1270000	5080000	0
+
+.uni
+IMPERIAL	1000	"Thou"	0
+
+.pcl
+"Unknown"
+attr	"data_type"	"g"
+
+.pcl
+"Uncommited"
+attr	"data_type"	"g"
+
+.pcl
+"Input"
+attr	"data_type"	"f"
+
+.pcl
+"OutputOr"
+attr	"data_type"	"e"
+
+.pcl
+"OutputNotOr"
+attr	"data_type"	"c"
+
+.pcl
+"OutputNotNormOr"
+attr	"data_type"	"d"
+
+.pcl
+"Power"
+attr	"data_type"	"a"
+
+.pcl
+"Ground"
+attr	"data_type"	"b"
+
+.pcl
+"TriBiDriver"
+attr	"data_type"	"h"
+
+.pcl
+"TriInput"
+attr	"data_type"	"j"
+
+.pcl
+"TriDriver"
+attr	"data_type"	"i"
+
+.mrl
+"foil 0.5 ox"
+attr	"mat_loss_tan"	"0.000000"
+attr	"mat_conduct"	"5.714286e+007"
+attr	"mat_permitivity"	"1.000000"
+
+.mrl
+"foil 1 oz"
+attr	"mat_loss_tan"	"0.000000"
+attr	"mat_conduct"	"5.714286e+007"
+attr	"mat_permitivity"	"1.000000"
+
+.mrl
+"laminate fr4"
+attr	"mat_loss_tan"	"0.000000"
+attr	"mat_conduct"	"5.714286e+007"
+attr	"mat_permitivity"	"4.500000"
+
+.mrl
+"prepeg 2125"
+attr	"mat_loss_tan"	"0.000000"
+attr	"mat_conduct"	"5.714286e+007"
+attr	"mat_permitivity"	"4.500000"
+
+.mrl
+"prepeg 7828"
+attr	"mat_loss_tan"	"0.000000"
+attr	"mat_conduct"	"5.714286e+007"
+attr	"mat_permitivity"	"4.500000"
+
+.scl
+"__NO_CLASS"	"__NO_CLASS"
+
+.pct
+"default"	0	359.999	0.1	0
+T	SWAP	127000	127000
+
+.net
+"$5"	U
+attr	"net_via"	"(1-2)\"Circle 100/44(via)\""
+attr	"net_max_width"	"254000ds"
+attr	"net_min_width"	"76200ds"
+attr	"net_opt_width"	"203200ds"
+attr	"net_width"	"177800ds"
+attr	"spacing_class"	"__NO_CLASS"
+
+.net
+"$19"	U
+attr	"net_via"	"(1-2)\"Circle 100/44(via)\""
+attr	"net_max_width"	"254000ds"
+attr	"net_min_width"	"76200ds"
+attr	"net_opt_width"	"203200ds"
+attr	"net_width"	"177800ds"
+attr	"spacing_class"	"__NO_CLASS"
+
+.net
+"GND"	U
+attr	"net_via"	"(1-2)\"Circle 100/44(via)\""
+attr	"net_max_width"	"254000ds"
+attr	"net_min_width"	"76200ds"
+attr	"net_opt_width"	"203200ds"
+attr	"net_width"	"177800ds"
+attr	"spacing_class"	"__NO_CLASS"
+
+.net
+"$7"	U
+attr	"net_via"	"(1-2)\"Circle 100/44(via)\""
+attr	"net_max_width"	"254000ds"
+attr	"net_min_width"	"76200ds"
+attr	"net_opt_width"	"203200ds"
+attr	"net_width"	"177800ds"
+attr	"spacing_class"	"__NO_CLASS"
+
+.net
+"P5V"	U
+attr	"net_via"	"(1-2)\"Circle 100/44(via)\""
+attr	"net_max_width"	"254000ds"
+attr	"net_min_width"	"76200ds"
+attr	"net_opt_width"	"203200ds"
+attr	"net_width"	"177800ds"
+attr	"spacing_class"	"__NO_CLASS"
+
+.net
+"$14"	U
+attr	"net_via"	"(1-2)\"Circle 100/44(via)\""
+attr	"net_max_width"	"254000ds"
+attr	"net_min_width"	"76200ds"
+attr	"net_opt_width"	"203200ds"
+attr	"net_width"	"177800ds"
+attr	"spacing_class"	"__NO_CLASS"
+
+.net
+"$13"	U
+attr	"net_via"	"(1-2)\"Circle 100/44(via)\""
+attr	"net_max_width"	"254000ds"
+attr	"net_min_width"	"76200ds"
+attr	"net_opt_width"	"203200ds"
+attr	"net_width"	"177800ds"
+attr	"spacing_class"	"__NO_CLASS"
+
+.net
+"$22"	U
+attr	"net_via"	"(1-2)\"Circle 100/44(via)\""
+attr	"net_max_width"	"254000ds"
+attr	"net_min_width"	"76200ds"
+attr	"net_opt_width"	"203200ds"
+attr	"net_width"	"177800ds"
+attr	"spacing_class"	"__NO_CLASS"
+
+.net
+"$26"	U
+attr	"net_via"	"(1-2)\"Circle 100/44(via)\""
+attr	"net_max_width"	"254000ds"
+attr	"net_min_width"	"76200ds"
+attr	"net_opt_width"	"203200ds"
+attr	"net_width"	"177800ds"
+attr	"spacing_class"	"__NO_CLASS"
+
+.net
+"$17"	U
+attr	"net_via"	"(1-2)\"Circle 100/44(via)\""
+attr	"net_max_width"	"254000ds"
+attr	"net_min_width"	"76200ds"
+attr	"net_opt_width"	"203200ds"
+attr	"net_width"	"177800ds"
+attr	"spacing_class"	"__NO_CLASS"
+
+.net
+"$21"	U
+attr	"net_via"	"(1-2)\"Circle 100/44(via)\""
+attr	"net_max_width"	"254000ds"
+attr	"net_min_width"	"76200ds"
+attr	"net_opt_width"	"203200ds"
+attr	"net_width"	"177800ds"
+attr	"spacing_class"	"__NO_CLASS"
+
+.net
+"$30"	U
+attr	"net_via"	"(1-2)\"Circle 100/44(via)\""
+attr	"net_max_width"	"254000ds"
+attr	"net_min_width"	"76200ds"
+attr	"net_opt_width"	"203200ds"
+attr	"net_width"	"177800ds"
+attr	"spacing_class"	"__NO_CLASS"
+
+.net
+"$8"	U
+attr	"net_via"	"(1-2)\"Circle 100/44(via)\""
+attr	"net_max_width"	"254000ds"
+attr	"net_min_width"	"76200ds"
+attr	"net_opt_width"	"203200ds"
+attr	"net_width"	"177800ds"
+attr	"spacing_class"	"__NO_CLASS"
+
+.net
+"$31"	U
+attr	"net_via"	"(1-2)\"Circle 100/44(via)\""
+attr	"net_max_width"	"254000ds"
+attr	"net_min_width"	"76200ds"
+attr	"net_opt_width"	"203200ds"
+attr	"net_width"	"177800ds"
+attr	"spacing_class"	"__NO_CLASS"
+
+.net
+"$24"	U
+attr	"net_via"	"(1-2)\"Circle 100/44(via)\""
+attr	"net_max_width"	"254000ds"
+attr	"net_min_width"	"76200ds"
+attr	"net_opt_width"	"203200ds"
+attr	"net_width"	"177800ds"
+attr	"spacing_class"	"__NO_CLASS"
+
+.net
+"$9"	U
+attr	"net_via"	"(1-2)\"Circle 100/44(via)\""
+attr	"net_max_width"	"254000ds"
+attr	"net_min_width"	"76200ds"
+attr	"net_opt_width"	"203200ds"
+attr	"net_width"	"177800ds"
+attr	"spacing_class"	"__NO_CLASS"
+
+.tpl
+HID	"tpl.TEMPLATE0"	"TEMPLATE0"	2	2	U	FILL	4
+1270000	508000	8890000	508000	0
+8890000	508000	8890000	5080000	0
+8890000	5080000	1270000	5080000	0
+1270000	5080000	1270000	508000	0
+
+attr	"ppp_ignore_via_to_prof"	"N"
+attr	"ppp_ignore_pin_to_prof"	"N"
+attr	"ppp_is_plane"	"N"
+attr	"ppp_auto_repour"	"N"
+attr	"ppp_box_pins"	"N"
+attr	"ppp_ignore_res"	"N"
+attr	"ppp_relief_type"	"CROSS"
+attr	"ppp_via_relief"	"  0.000"
+attr	"ppp_pad_relief"	"  0.000"
+attr	"ppp_isolation"	"20th"
+attr	"ppp_sliver"	"20th"
+attr	"ppp_clearance"	"20th"
+attr	"ppp_con_width"	"10th"
+attr	"ppp_out_width"	"10th"
+attr	"ppp_keep_disj"	"N"
+attr	"ppp_keep_iso"	"N"
+attr	"ppp_signal"	""
+
+.pad
+"Circle 95/40"	101600
+NORMAL
+1	2	FILL	1
+120650	0	-120650	0	32766
+
+S
+NORMAL
+1	2	FILL	1
+-120650	0	120650	0	-32766
+
+
+attr	"pad_backoff"	"120650dsu"
+
+.pad
+"Square 95/40"	101600
+NORMAL
+1	2	FILL	4
+-120650	-120650	120650	-120650	0
+120650	-120650	120650	120650	0
+120650	120650	-120650	120650	0
+-120650	120650	-120650	-120650	0
+
+S
+NORMAL
+1	2	FILL	4
+120650	-120650	-120650	-120650	0
+-120650	-120650	-120650	120650	0
+-120650	120650	120650	120650	0
+120650	120650	120650	-120650	0
+
+
+attr	"pad_backoff"	"120650dsu"
+
+.pad
+"Circle 150/80"	203200
+NORMAL
+1	2	FILL	1
+190500	0	-190500	0	32766
+
+S
+NORMAL
+1	2	FILL	1
+-190500	0	190500	0	-32766
+
+
+attr	"pad_backoff"	"190500dsu"
+
+.pad
+"Circle 65/40"	101600
+NORMAL
+1	2	FILL	1
+82550	0	-82550	0	32766
+
+S
+NORMAL
+1	2	FILL	1
+-82550	0	82550	0	-32766
+
+
+attr	"pad_backoff"	"82550dsu"
+
+.pad
+"Square 65/40"	101600
+NORMAL
+1	2	FILL	4
+-82550	-82550	82550	-82550	0
+82550	-82550	82550	82550	0
+82550	82550	-82550	82550	0
+-82550	82550	-82550	-82550	0
+
+S
+NORMAL
+1	2	FILL	4
+82550	-82550	-82550	-82550	0
+-82550	-82550	-82550	82550	0
+-82550	82550	82550	82550	0
+82550	82550	82550	-82550	0
+
+
+attr	"pad_backoff"	"82550dsu"
+
+.pad
+"150thou hole"	381000
+NORMAL
+1	2	FILL	1
+190500	0	-190500	0	32766
+
+S
+NORMAL
+1	2	FILL	1
+-190500	0	190500	0	-32766
+
+
+attr	"pad_backoff"	"190500dsu"
+
+.pad
+"Square 80/50"	127000
+NORMAL
+1	2	FILL	4
+-101600	-101600	101600	-101600	0
+101600	-101600	101600	101600	0
+101600	101600	-101600	101600	0
+-101600	101600	-101600	-101600	0
+
+S
+NORMAL
+1	2	FILL	4
+101600	-101600	-101600	-101600	0
+-101600	-101600	-101600	101600	0
+-101600	101600	101600	101600	0
+101600	101600	101600	-101600	0
+
+
+attr	"pad_backoff"	"101600dsu"
+
+.pad
+"Circle 90/40"	101600
+NORMAL
+1	2	FILL	1
+114300	0	-114300	0	32766
+
+S
+NORMAL
+1	2	FILL	1
+-114300	0	114300	0	-32766
+
+
+attr	"pad_backoff"	"114300dsu"
+
+.pad
+"Circle 80/50"	127000
+NORMAL
+1	2	FILL	1
+101600	0	-101600	0	32766
+
+S
+NORMAL
+1	2	FILL	1
+-101600	0	101600	0	-32766
+
+
+attr	"pad_backoff"	"101600dsu"
+
+.pad
+"Circle 100/50"	127000
+NORMAL
+1	2	FILL	1
+127000	0	-127000	0	32766
+
+S
+NORMAL
+1	2	FILL	1
+-127000	0	127000	0	-32766
+
+
+attr	"pad_backoff"	"127000dsu"
+
+.pad
+"Circle 75/40"	101600
+NORMAL
+1	2	FILL	1
+95250	0	-95250	0	32766
+
+S
+NORMAL
+1	2	FILL	1
+-95250	0	95250	0	-32766
+
+
+attr	"pad_backoff"	"95250dsu"
+
+.pad
+"Circle 65/40@270000"	101600
+NORMAL
+1	2	FILL	1
+0	-82550	0	82550	32766
+
+S
+NORMAL
+1	2	FILL	1
+0	-82550	0	82550	-32766
+
+
+attr	"pad_backoff"	"82550dsu"
+
+.pad
+"Square 65/40@270000"	101600
+NORMAL
+1	2	FILL	4
+-82550	82550	-82550	-82550	0
+-82550	-82550	82550	-82550	0
+82550	-82550	82550	82550	0
+82550	82550	-82550	82550	0
+
+S
+NORMAL
+1	2	FILL	4
+82550	82550	82550	-82550	0
+82550	-82550	-82550	-82550	0
+-82550	-82550	-82550	82550	0
+-82550	82550	82550	82550	0
+
+
+attr	"pad_backoff"	"82550dsu"
+
+.pad
+"Circle 60/28"	71120
+NORMAL
+1	2	FILL	1
+76200	0	-76200	0	32766
+
+S
+NORMAL
+1	2	FILL	1
+-76200	0	76200	0	-32766
+
+
+attr	"pad_backoff"	"76200dsu"
+
+.pad
+"__NO_PAD"	0
+S
+
+.pad
+"Circle 55/28(via)"	71120
+NORMAL
+1	2	FILL	1
+69850	0	-69850	0	32766
+
+S
+
+attr	"pad_backoff"	"69850dsu"
+
+.pad
+"Circle 40/20(via)"	50800
+NORMAL
+1	2	FILL	1
+50800	0	-50800	0	32766
+
+S
+
+attr	"pad_backoff"	"50800dsu"
+
+.pad
+"Circle 60/32(via)"	81280
+NORMAL
+1	2	FILL	1
+76200	0	-76200	0	32766
+
+S
+
+attr	"pad_backoff"	"76200dsu"
+
+.pad
+"Circle 75/40(via)"	101600
+NORMAL
+1	2	FILL	1
+95250	0	-95250	0	32766
+
+S
+
+attr	"pad_backoff"	"95250dsu"
+
+.pad
+"Circle 80/40(via)"	101600
+NORMAL
+1	2	FILL	1
+101600	0	-101600	0	32766
+
+S
+
+attr	"pad_backoff"	"101600dsu"
+
+.pad
+"Circle 100/44(via)"	111760
+NORMAL
+1	2	FILL	1
+127000	0	-127000	0	32766
+
+S
+
+attr	"pad_backoff"	"127000dsu"
+
+.sym
+"VISHAYT7 TRIMMER"	3	"ITB"
+0	0
+-254000	254000
+0	508000
+
+U
+
+pla
+1	1	FILL	4
+-463550	-209550	-463550	717550	0
+-463550	717550	463550	717550	0
+463550	717550	463550	-209550	0
+463550	-209550	-463550	-209550	0
+
+S
+
+pla
+2	2	FILL	4
+-463550	-209550	-463550	717550	0
+-463550	717550	463550	717550	0
+463550	717550	463550	-209550	0
+463550	-209550	-463550	-209550	0
+
+.sym
+"TO92"	3	"123"
+0	0
+190500	0
+381000	0
+
+U
+
+pla
+1	1	UNF
+0	1
+-127000	317500	508000	317500	0
+
+pla
+1	1	UNF
+0	3
+-127000	317500	-127000	-127000	0
+-127000	-127000	508000	-127000	0
+508000	-127000	508000	317500	0
+
+S
+
+pla
+2	2	UNF
+0	1
+-127000	317500	508000	317500	0
+
+pla
+2	2	UNF
+0	3
+-127000	317500	-127000	-127000	0
+-127000	-127000	508000	-127000	0
+508000	-127000	508000	317500	0
+
+.sym
+"RES"	2	"0.25W ITB 2013"
+0	0
+762000	0
+
+U
+
+pla
+1	1	FILL	4
+50800	-139700	50800	139700	0
+50800	139700	711200	139700	0
+711200	139700	711200	-139700	0
+711200	-139700	50800	-139700	0
+
+S
+
+pla
+2	2	FILL	4
+50800	-139700	50800	139700	0
+50800	139700	711200	139700	0
+711200	139700	711200	-139700	0
+711200	-139700	50800	-139700	0
+"0.5W ITB 2013"
+0	0
+1143000	0
+
+U
+
+pla
+1	1	FILL	4
+50800	-203200	50800	203200	0
+50800	203200	1092200	203200	0
+1092200	203200	1092200	-203200	0
+1092200	-203200	50800	-203200	0
+
+S
+
+pla
+2	2	FILL	4
+50800	-203200	50800	203200	0
+50800	203200	1092200	203200	0
+1092200	203200	1092200	-203200	0
+1092200	-203200	50800	-203200	0
+"0.25W"
+0	0
+762000	0
+
+U
+
+pla
+1	1	FILL	4
+50800	-139700	50800	139700	0
+50800	139700	711200	139700	0
+711200	139700	711200	-139700	0
+711200	-139700	50800	-139700	0
+
+S
+
+pla
+2	2	FILL	4
+50800	-139700	50800	139700	0
+50800	139700	711200	139700	0
+711200	139700	711200	-139700	0
+711200	-139700	50800	-139700	0
+
+.sym
+"PHOENIX CON 2-WAY"	2	"ITB"
+0	0
+300000	0
+
+U
+
+pla
+1	1	FILL	4
+-262700	-412700	-262700	312700	0
+-262700	312700	517700	312700	0
+517700	312700	517700	-412700	0
+517700	-412700	-262700	-412700	0
+
+S
+
+pla
+2	2	FILL	4
+-262700	-412700	-262700	312700	0
+-262700	312700	517700	312700	0
+517700	312700	517700	-412700	0
+517700	-412700	-262700	-412700	0
+
+.sym
+"LED"	2	"ITB 2013"
+-127000	0
+127000	0
+
+U
+
+pla
+1	1	FILL	2
+0	-254000	0	254000	-16383
+0	254000	0	-254000	-16383
+
+S
+
+pla
+2	2	FILL	2
+0	-254000	0	254000	-16383
+0	254000	0	-254000	-16383
+
+.sym
+"DIP8"	8	" "
+0	0
+254000	0
+508000	0
+762000	0
+762000	762000
+508000	762000
+254000	762000
+0	762000
+
+U
+
+pla
+1	1	FILL	5
+-127000	-127000	-254000	0	0
+-254000	0	-254000	889000	0
+-254000	889000	1016000	889000	0
+1016000	889000	1016000	-127000	0
+1016000	-127000	-127000	-127000	0
+
+S
+
+pla
+2	2	FILL	5
+-127000	-127000	-254000	0	0
+-254000	0	-254000	889000	0
+-254000	889000	1016000	889000	0
+1016000	889000	1016000	-127000	0
+1016000	-127000	-127000	-127000	0
+
+.sym
+"4MM HOLE"	1	"ITB"
+0	0
+
+.sym
+"PADS 10MM"	2	"10mmx5mm"
+0	0
+1016000	0
+
+U
+
+pla
+1	1	FILL	4
+63500	300000	952500	300000	0
+952500	300000	952500	-300000	0
+952500	-300000	63500	-300000	0
+63500	-300000	63500	300000	0
+
+S
+
+pla
+2	2	FILL	4
+63500	300000	952500	300000	0
+952500	300000	952500	-300000	0
+952500	-300000	63500	-300000	0
+63500	-300000	63500	300000	0
+
+.sym
+"VISHNAY BPW34 PHOTODIODE"	2	"10mmx5mm"
+0	0
+508000	0
+
+U
+
+pla
+1	1	FILL	4
+63500	300000	508000	300000	0
+508000	300000	508000	-300000	0
+508000	-300000	63500	-300000	0
+63500	-300000	63500	300000	0
+
+S
+
+pla
+2	2	FILL	4
+63500	300000	508000	300000	0
+508000	300000	508000	-300000	0
+508000	-300000	63500	-300000	0
+63500	-300000	63500	300000	0
+
+.sym
+"DIODE"	2	"250x125"
+0	0
+1016000	0
+
+U
+
+pla
+1	1	FILL	4
+177800	-171450	177800	171450	0
+177800	171450	838200	171450	0
+838200	171450	838200	-171450	0
+838200	-171450	177800	-171450	0
+
+S
+
+pla
+2	2	FILL	4
+177800	-171450	177800	171450	0
+177800	171450	838200	171450	0
+838200	171450	838200	-171450	0
+838200	-171450	177800	-171450	0
+
+.sym
+"ITB PCB CON 2-WAY"	2	" "
+0	0
+500000	0
+
+U
+
+pla
+1	1	FILL	4
+-262700	-462700	-262700	462700	0
+-262700	462700	812700	462700	0
+812700	462700	812700	-462700	0
+812700	-462700	-262700	-462700	0
+
+S
+
+pla
+2	2	FILL	4
+-262700	-462700	-262700	462700	0
+-262700	462700	812700	462700	0
+812700	462700	812700	-462700	0
+812700	-462700	-262700	-462700	0
+
+.sym
+"D TYPE 15 PCB PLUG"	17	"ITB-2013"
+-5000	15000
+-280000	15000
+-550000	15000
+-820000	25000
+-1095000	25000
+-1370000	30000
+-1650000	30000
+-1925000	35000
+-145000	-255000
+-420000	-255000
+-685000	-260000
+-960000	-260000
+-1235000	-255000
+-1505000	-255000
+-1780000	-255000
+-2620000	-115000
+720000	-110000
+
+U
+
+pla
+1	1	FILL	4
+-2942700	-762700	-2942700	522700	0
+-2942700	522700	1022700	522700	0
+1022700	522700	1022700	-762700	0
+1022700	-762700	-2942700	-762700	0
+
+S
+
+pla
+2	2	FILL	4
+-2942700	-762700	-2942700	522700	0
+-2942700	522700	1022700	522700	0
+1022700	522700	1022700	-762700	0
+1022700	-762700	-2942700	-762700	0
+
+.pak
+"RES(THERMISTOR)"	"RES"	2
+"0.25W ITB 2013"
+"Circle 100/50"	"1"	256
+"Circle 100/50"	"2"	256
+"0.5W ITB 2013"
+"Circle 100/50"	"1"	256
+"Circle 100/50"	"2"	256
+"0.25W"
+"Circle 75/40"	"1"	256
+"Circle 75/40"	"2"	256
+
+.pak
+"VISHNAY BPW34 PHOTODIODE(BPW34)"	"VISHNAY BPW34 PHOTODIODE"	2
+"10mmx5mm"
+"Square 80/50"	"1"	256
+"Circle 80/50"	"2"	256
+
+.pak
+"ITB PCB CON 2-WAY(PCB CON 2 WAY)"	"ITB PCB CON 2-WAY"	2
+" "
+"Circle 150/80"	"1"	256
+"Circle 150/80"	"2"	256
+
+.pak
+"PHOENIX CON 2-WAY(DCMOTOR)"	"PHOENIX CON 2-WAY"	2
+"ITB"
+"Circle 80/50"	"1"	256
+"Circle 80/50"	"2"	256
+
+.pak
+"VISHAYT7 TRIMMER(VISHAY T7 POT)"	"VISHAYT7 TRIMMER"	3
+"ITB"
+"Circle 60/28"	"1"	256
+"Circle 60/28"	"2"	256
+"Circle 60/28"	"3"	256
+
+.pak
+"RES(TH0W5/RNV)"	"RES"	2
+"0.25W ITB 2013"
+"Circle 100/50"	"1"	256
+"Circle 100/50"	"2"	256
+"0.5W ITB 2013"
+"Circle 100/50"	"1"	256
+"Circle 100/50"	"2"	256
+"0.25W"
+"Circle 75/40"	"1"	256
+"Circle 75/40"	"2"	256
+
+.pak
+"DIODE(1N4004)"	"DIODE"	2
+"250x125"
+"Square 65/40"	"1"	256
+"Circle 65/40"	"2"	256
+
+.pak
+"LED(LED 3MM GRN)"	"LED"	2
+"ITB 2013"
+"Circle 90/40"	"1"	256
+"Circle 90/40"	"2"	256
+
+.pak
+"DIP8(LM358)"	"DIP8"	8
+" "
+"Square 80/50"	"1"	256
+"Circle 80/50"	"2"	256
+"Circle 80/50"	"3"	256
+"Circle 80/50"	"4"	256
+"Circle 80/50"	"5"	256
+"Circle 80/50"	"6"	256
+"Circle 80/50"	"7"	256
+"Circle 80/50"	"8"	256
+
+.pak
+"D TYPE 15 PCB PLUG(D-TYPE 15 PIN SKT)"	"D TYPE 15 PCB PLUG"	17
+"ITB-2013"
+"Square 95/40"	"1"	256
+"Circle 95/40"	"2"	256
+"Circle 95/40"	"3"	256
+"Circle 95/40"	"4"	256
+"Circle 95/40"	"5"	256
+"Circle 95/40"	"6"	256
+"Circle 95/40"	"7"	256
+"Circle 95/40"	"8"	256
+"Circle 95/40"	"9"	256
+"Circle 95/40"	"10"	256
+"Circle 95/40"	"11"	256
+"Circle 95/40"	"12"	256
+"Circle 95/40"	"13"	256
+"Circle 95/40"	"14"	256
+"Circle 95/40"	"15"	256
+"150thou hole"	"16"	256
+"150thou hole"	"17"	256
+
+.pak
+"TO92(BC337)"	"TO92"	3
+"123"
+"Square 65/40@270000"	"1"	256
+"Circle 65/40@270000"	"2"	256
+"Circle 65/40@270000"	"3"	256
+
+.pak
+"RES(TH0W25/RNV)"	"RES"	2
+"0.25W ITB 2013"
+"Circle 100/50"	"1"	256
+"Circle 100/50"	"2"	256
+"0.5W ITB 2013"
+"Circle 100/50"	"1"	256
+"Circle 100/50"	"2"	256
+"0.25W"
+"Circle 75/40"	"1"	256
+"Circle 75/40"	"2"	256
+
+.pak
+"PADS 10MM(HCZ-J3)"	"PADS 10MM"	2
+"10mmx5mm"
+"Square 80/50"	"1"	256
+"Circle 80/50"	"2"	256
+
+.pak
+"4MM HOLE(4MM HOLE)"	"4MM HOLE"	1
+"ITB"
+"150thou hole"	"1"	256
+
+.elm
+"THERMISTOR"	SIMPLE	2
+1	2
+
+.elm
+"BPW34"	SIMPLE	2
+1	2
+
+.elm
+"PCB CON 2 WAY"	SIMPLE	2
+1	1
+
+.elm
+"DCMOTOR"	SIMPLE	2
+1	2
+
+.elm
+"VISHAY T7 POT"	SIMPLE	3
+1	2	3
+
+.elm
+"TH0W5/RNV"	SIMPLE	2
+1	1
+
+.elm
+"1N4004"	SIMPLE	2
+1	2
+
+.elm
+"LED 3MM GRN"	SIMPLE	2
+1	2
+
+.elm
+"LM358"	SIMPLE	8
+1	2	3	4	5	6	7	8
+
+.elm
+"D-TYPE 15 PIN SKT"	SIMPLE	17
+1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	3
+
+.elm
+"BC337"	SIMPLE	3
+1	2	3
+
+.elm
+"TH0W25/RNV"	SIMPLE	2
+1	1
+
+.elm
+"HCZ-J3"	SIMPLE	2
+1	1
+
+.elm
+"4MM HOLE"	SIMPLE	1
+1
+
+.par
+"THERMISTOR"	"RES(THERMISTOR)"	"THERMISTOR"	2
+2	2
+1	1
+0
+
+attr	"plc_category"	"default"
+attr	"plc_prefix"	"RTH"
+attr	"plc_partcat"	"O"
+TER	2
+
+attr	"pin_class"	"Uncommited"
+TER	1
+
+attr	"pin_class"	"Uncommited"
+
+.par
+"BPW34"	"VISHNAY BPW34 PHOTODIODE(BPW34)"	"BPW34"	2
+2	2
+1	1
+0
+
+attr	"plc_category"	"default"
+attr	"plc_prefix"	"D"
+attr	"plc_partcat"	"O"
+TER	2
+
+attr	"pin_class"	"Uncommited"
+TER	1
+
+attr	"pin_class"	"Uncommited"
+
+.par
+"PCB CON 2 WAY"	"ITB PCB CON 2-WAY(PCB CON 2 WAY)"	"PCB CON 2 WAY"	2
+2	2
+1	1
+0
+
+attr	"plc_category"	"default"
+attr	"plc_prefix"	"CON"
+attr	"plc_partcat"	"O"
+TER	2
+
+attr	"pin_class"	"Uncommited"
+TER	1
+
+attr	"pin_class"	"Uncommited"
+
+.par
+"DCMOTOR"	"PHOENIX CON 2-WAY(DCMOTOR)"	"DCMOTOR"	2
+2	2
+1	1
+0
+
+attr	"plc_category"	"default"
+attr	"plc_prefix"	"M"
+attr	"plc_partcat"	"O"
+TER	2
+
+attr	"pin_class"	"Uncommited"
+TER	1
+
+attr	"pin_class"	"Uncommited"
+
+.par
+"VISHAY T7 POT"	"VISHAYT7 TRIMMER(VISHAY T7 POT)"	"VISHAY T7 POT"	3
+3	3
+2	2
+1	1
+0
+
+attr	"plc_category"	"default"
+attr	"plc_prefix"	"VR"
+attr	"plc_partcat"	"O"
+TER	3
+
+attr	"pin_class"	"Uncommited"
+TER	2
+
+attr	"pin_class"	"Uncommited"
+TER	1
+
+attr	"pin_class"	"Uncommited"
+
+.par
+"TH0W5/RNV"	"RES(TH0W5/RNV)"	"TH0W5/RNV"	2
+2	2
+1	1
+0
+
+attr	"plc_category"	"default"
+attr	"plc_prefix"	"R"
+attr	"plc_partcat"	"O"
+TER	2
+
+attr	"pin_class"	"Uncommited"
+TER	1
+
+attr	"pin_class"	"Uncommited"
+
+.par
+"1N4004"	"DIODE(1N4004)"	"1N4004"	2
+2	2
+1	1
+0
+
+attr	"plc_category"	"default"
+attr	"plc_prefix"	"D"
+attr	"plc_partcat"	"O"
+TER	2
+
+attr	"pin_class"	"Uncommited"
+TER	1
+
+attr	"pin_class"	"Uncommited"
+
+.par
+"LED 3MM GRN"	"LED(LED 3MM GRN)"	"LED 3MM GRN"	2
+2	2
+1	1
+0
+
+attr	"plc_category"	"default"
+attr	"plc_prefix"	"LED"
+attr	"plc_partcat"	"O"
+TER	2
+
+attr	"pin_class"	"Uncommited"
+TER	1
+
+attr	"pin_class"	"Uncommited"
+
+.par
+"LM358"	"DIP8(LM358)"	"LM358"	8
+8	8
+7	7
+6	6
+5	5
+4	4
+3	3
+2	2
+1	1
+0
+
+attr	"plc_category"	"default"
+attr	"plc_prefix"	"IC"
+attr	"plc_partcat"	"O"
+TER	8
+
+attr	"pin_class"	"Uncommited"
+TER	7
+
+attr	"pin_class"	"Uncommited"
+TER	6
+
+attr	"pin_class"	"Uncommited"
+TER	5
+
+attr	"pin_class"	"Uncommited"
+TER	4
+
+attr	"pin_class"	"Uncommited"
+TER	3
+
+attr	"pin_class"	"Uncommited"
+TER	2
+
+attr	"pin_class"	"Uncommited"
+TER	1
+
+attr	"pin_class"	"Uncommited"
+
+.par
+"D-TYPE 15 PIN SKT"	"D TYPE 15 PCB PLUG(D-TYPE 15 PIN SKT)"	"D-TYPE 15 PIN SKT"	17
+17	17
+16	16
+15	15
+14	14
+13	13
+12	12
+11	11
+10	10
+9	9
+8	8
+7	7
+6	6
+5	5
+4	4
+3	3
+2	2
+1	1
+0
+
+attr	"plc_category"	"default"
+attr	"plc_prefix"	"CON"
+attr	"plc_partcat"	"O"
+TER	17
+
+attr	"pin_class"	"Uncommited"
+TER	16
+
+attr	"pin_class"	"Uncommited"
+TER	15
+
+attr	"pin_class"	"Uncommited"
+TER	14
+
+attr	"pin_class"	"Uncommited"
+TER	13
+
+attr	"pin_class"	"Uncommited"
+TER	12
+
+attr	"pin_class"	"Uncommited"
+TER	11
+
+attr	"pin_class"	"Uncommited"
+TER	10
+
+attr	"pin_class"	"Uncommited"
+TER	9
+
+attr	"pin_class"	"Uncommited"
+TER	8
+
+attr	"pin_class"	"Uncommited"
+TER	7
+
+attr	"pin_class"	"Uncommited"
+TER	6
+
+attr	"pin_class"	"Uncommited"
+TER	5
+
+attr	"pin_class"	"Uncommited"
+TER	4
+
+attr	"pin_class"	"Uncommited"
+TER	3
+
+attr	"pin_class"	"Uncommited"
+TER	2
+
+attr	"pin_class"	"Uncommited"
+TER	1
+
+attr	"pin_class"	"Uncommited"
+
+.par
+"BC337"	"TO92(BC337)"	"BC337"	3
+3	3
+2	2
+1	1
+0
+
+attr	"plc_category"	"default"
+attr	"plc_prefix"	"TR"
+attr	"plc_partcat"	"O"
+TER	3
+
+attr	"pin_class"	"Uncommited"
+TER	2
+
+attr	"pin_class"	"Uncommited"
+TER	1
+
+attr	"pin_class"	"Uncommited"
+
+.par
+"TH0W25/RNV"	"RES(TH0W25/RNV)"	"TH0W25/RNV"	2
+2	2
+1	1
+0
+
+attr	"plc_category"	"default"
+attr	"plc_prefix"	"R"
+attr	"plc_partcat"	"O"
+TER	2
+
+attr	"pin_class"	"Uncommited"
+TER	1
+
+attr	"pin_class"	"Uncommited"
+
+.par
+"HCZ-J3"	"PADS 10MM(HCZ-J3)"	"HCZ-J3"	2
+2	2
+1	1
+0
+
+attr	"plc_category"	"default"
+attr	"plc_prefix"	"H"
+attr	"plc_partcat"	"O"
+TER	2
+
+attr	"pin_class"	"Uncommited"
+TER	1
+
+attr	"pin_class"	"Uncommited"
+
+.par
+"4MM HOLE"	"4MM HOLE(4MM HOLE)"	"4MM HOLE"	1
+1	1
+0
+
+attr	"plc_category"	"default"
+attr	"plc_prefix"	"H"
+attr	"plc_partcat"	"O"
+TER	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"RTH1"	"THERMISTOR"	"0.25W"	6985000	3683000	0	0
+
+attr	"value"	"5k"
+attr	"plc_category"	"default"
+PIN	2
+
+attr	"pin_class"	"Uncommited"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"D2"	"BPW34"	"10mmx5mm"	6477000	3683000	90	0
+
+attr	"plc_category"	"default"
+PIN	2
+
+attr	"pin_class"	"Uncommited"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"CON3"	"PCB CON 2 WAY"	" "	7747000	1143000	180	0
+
+attr	"plc_category"	"default"
+PIN	2
+
+attr	"pin_class"	"Uncommited"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"M1"	"DCMOTOR"	"ITB"	3683000	3810000	270	0
+
+attr	"plc_category"	"default"
+PIN	2
+
+attr	"pin_class"	"Uncommited"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"VR2"	"VISHAY T7 POT"	"ITB"	2667000	3683000	0	0
+
+attr	"value"	"470"
+attr	"plc_category"	"default"
+PIN	3
+
+attr	"pin_class"	"Uncommited"
+PIN	2
+
+attr	"pin_class"	"Uncommited"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"R3"	"TH0W5/RNV"	"0.5W ITB 2013"	4826000	4191000	270	0
+
+attr	"value"	"220"
+attr	"plc_category"	"default"
+PIN	2
+
+attr	"pin_class"	"Uncommited"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"D1"	"1N4004"	"250x125"	5334000	3302000	90	0
+
+attr	"plc_category"	"default"
+PIN	2
+
+attr	"pin_class"	"Uncommited"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"LED1"	"LED 3MM GRN"	"ITB 2013"	4318000	2921000	270	0
+
+attr	"plc_category"	"default"
+PIN	2
+
+attr	"pin_class"	"Uncommited"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"VR1"	"VISHAY T7 POT"	"ITB"	6604000	2286000	0	0
+
+attr	"value"	"470"
+attr	"plc_category"	"default"
+PIN	3
+
+attr	"pin_class"	"Uncommited"
+PIN	2
+
+attr	"pin_class"	"Uncommited"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"IC2"	"LM358"	" "	2921000	2921000	270	0
+
+attr	"value"	"LM358"
+attr	"plc_category"	"default"
+PIN	8
+
+attr	"pin_class"	"Uncommited"
+PIN	7
+
+attr	"pin_class"	"Uncommited"
+PIN	6
+
+attr	"pin_class"	"Uncommited"
+PIN	5
+
+attr	"pin_class"	"Uncommited"
+PIN	4
+
+attr	"pin_class"	"Uncommited"
+PIN	3
+
+attr	"pin_class"	"Uncommited"
+PIN	2
+
+attr	"pin_class"	"Uncommited"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"R4"	"TH0W5/RNV"	"0.5W ITB 2013"	4445000	4318000	180	0
+
+attr	"value"	"4k7"
+attr	"plc_category"	"default"
+PIN	2
+
+attr	"pin_class"	"Uncommited"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"CON1"	"D-TYPE 15 PIN SKT"	"ITB-2013"	5842000	1397000	0	0
+
+attr	"plc_category"	"default"
+PIN	17
+
+attr	"pin_class"	"Uncommited"
+PIN	16
+
+attr	"pin_class"	"Uncommited"
+PIN	15
+
+attr	"pin_class"	"Uncommited"
+PIN	14
+
+attr	"pin_class"	"Uncommited"
+PIN	13
+
+attr	"pin_class"	"Uncommited"
+PIN	12
+
+attr	"pin_class"	"Uncommited"
+PIN	11
+
+attr	"pin_class"	"Uncommited"
+PIN	10
+
+attr	"pin_class"	"Uncommited"
+PIN	9
+
+attr	"pin_class"	"Uncommited"
+PIN	8
+
+attr	"pin_class"	"Uncommited"
+PIN	7
+
+attr	"pin_class"	"Uncommited"
+PIN	6
+
+attr	"pin_class"	"Uncommited"
+PIN	5
+
+attr	"pin_class"	"Uncommited"
+PIN	4
+
+attr	"pin_class"	"Uncommited"
+PIN	3
+
+attr	"pin_class"	"Uncommited"
+PIN	2
+
+attr	"pin_class"	"Uncommited"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"TR1"	"BC337"	"123"	4445000	2286000	180	0
+
+attr	"value"	"BC337"
+attr	"plc_category"	"default"
+PIN	3
+
+attr	"pin_class"	"Uncommited"
+PIN	2
+
+attr	"pin_class"	"Uncommited"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"R1"	"TH0W25/RNV"	"0.25W ITB 2013"	4826000	2032000	90	0
+
+attr	"value"	"1.2k"
+attr	"plc_category"	"default"
+PIN	2
+
+attr	"pin_class"	"Uncommited"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"H1"	"HCZ-J3"	"10mmx5mm"	2413000	2159000	90	0
+
+attr	"plc_category"	"default"
+PIN	2
+
+attr	"pin_class"	"Uncommited"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"CON2"	"PCB CON 2 WAY"	" "	7620000	2159000	90	0
+
+attr	"plc_category"	"default"
+PIN	2
+
+attr	"pin_class"	"Uncommited"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"IC1"	"LM358"	" "	5207000	3048000	270	0
+
+attr	"value"	"LM358"
+attr	"plc_category"	"default"
+PIN	8
+
+attr	"pin_class"	"Uncommited"
+PIN	7
+
+attr	"pin_class"	"Uncommited"
+PIN	6
+
+attr	"pin_class"	"Uncommited"
+PIN	5
+
+attr	"pin_class"	"Uncommited"
+PIN	4
+
+attr	"pin_class"	"Uncommited"
+PIN	3
+
+attr	"pin_class"	"Uncommited"
+PIN	2
+
+attr	"pin_class"	"Uncommited"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"R2"	"TH0W25/RNV"	"0.25W ITB 2013"	5842000	4191000	270	0
+
+attr	"value"	"4k7"
+attr	"plc_category"	"default"
+PIN	2
+
+attr	"pin_class"	"Uncommited"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"R6"	"TH0W5/RNV"	"0.5W ITB 2013"	6477000	3302000	0	0
+
+attr	"value"	"10k"
+attr	"plc_category"	"default"
+PIN	2
+
+attr	"pin_class"	"Uncommited"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"H5"	"4MM HOLE"	"ITB"	9906000	3302000	0	0
+
+attr	"plc_category"	"default"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"H4"	"4MM HOLE"	"ITB"	10033000	2794000	0	0
+
+attr	"plc_category"	"default"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"H3"	"4MM HOLE"	"ITB"	10160000	2159000	0	0
+
+attr	"plc_category"	"default"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.com
+"H2"	"4MM HOLE"	"ITB"	9652000	2286000	0	0
+
+attr	"plc_category"	"default"
+PIN	1
+
+attr	"pin_class"	"Uncommited"
+
+.con
+"$9"
+"R1"	2	"TR1"	2
+.con
+"$24"
+"R4"	2	"VR2"	3
+.con
+"$31"
+"CON3"	2	"CON1"	9
+.con
+"$8"
+"CON1"	5	"R1"	1
+.con
+"$30"
+"CON1"	13	"CON3"	1
+.con
+"$21"
+"IC1"	1	"CON1"	10	"IC1"	2
+.con
+"$17"
+"R2"	2	"VR1"	3
+.con
+"$26"
+"CON1"	14	"IC2"	1	"IC2"	2
+.con
+"$22"
+"IC2"	3	"VR2"	2	"H1"	2
+.con
+"$13"
+"LED1"	1	"R3"	2
+.con
+"$14"
+"TR1"	1	"LED1"	2	"M1"	2	"D1"	1
+.con
+"P5V"
+"CON2"	1	"D2"	2	"R2"	1	"D1"	2	"R4"	1	"R3"	1	"M1"	1	"IC2"	8	"IC1"	8
+.con
+"$7"
+"IC1"	7	"CON1"	11	"IC1"	6
+.con
+"GND"
+"RTH1"	2	"R6"	2	"CON2"	2	"IC1"	4	"CON1"	4	"TR1"	3	"H1"	1	"IC2"	4
+.con
+"$19"
+"RTH1"	1	"VR1"	2	"IC1"	3
+.con
+"$5"
+"IC1"	5	"D2"	1	"R6"	1
+.rou
+"$5"
+
+PATH	U	2	127000	6477000	3302000
+6477000	3683000
+
+.rou
+"$19"
+
+PATH	U	2	127000	6350000	2540000
+6223000	2540000
+
+PATH	U	2	127000	6985000	3683000
+6985000	2540000
+6350000	2540000
+
+.rou
+"GND"
+
+PATH	U	2	127000	2921000	2159000
+2413000	2159000
+
+PATH	U	2	127000	4064000	2286000
+4064000	1905000
+4826000	1143000
+5022000	1339000
+5022000	1422000
+
+PATH	U	2	127000	5207000	2286000
+5080000	2159000
+5080000	1480000
+5022000	1422000
+
+.rou
+"$7"
+
+PATH	U	2	127000	5157000	1137000
+5157000	1283500
+5270500	1397000
+5270500	1626630
+5504935	1861065
+
+PATH	U	2	127000	5969000	2540000
+5969000	2794000
+
+.rou
+"P5V"
+
+PATH	U	2	127000	5969000	3048000
+5524500	3048000
+5524500	3492500
+4826000	3492500
+
+PATH	U	2	127000	3683000	2921000
+3683000	3175000
+3365500	3492500
+3683000	3810000
+
+PATH	U	2	127000	3683000	3810000
+4000500	3492500
+4826000	3492500
+
+PATH	U	2	127000	4826000	4191000
+4826000	3492500
+
+PATH	U	2	127000	4445000	4318000
+4445000	4191000
+4826000	4191000
+
+PATH	U	2	127000	4826000	4191000
+4826000	4318000
+5334000	4318000
+
+PATH	U	2	127000	5334000	4318000
+5842000	4318000
+5842000	4191000
+
+PATH	U	2	127000	6477000	4191000
+5842000	4191000
+
+PATH	U	2	127000	7620000	2159000
+7175500	2603500
+7175500	3937000
+6477000	3937000
+6477000	4191000
+
+.rou
+"$14"
+
+PATH	U	2	127000	5334000	3302000
+4064000	3302000
+
+PATH	U	2	127000	3683000	3510000
+3891000	3302000
+4064000	3302000
+
+PATH	U	2	127000	4064000	3302000
+4064000	2794000
+4318000	2794000
+
+PATH	U	2	127000	4318000	2794000
+4445000	2794000
+4445000	2286000
+
+.rou
+"$13"
+
+PATH	U	2	127000	4826000	3048000
+4318000	3048000
+
+.rou
+"$22"
+
+PATH	U	2	127000	2413000	3238500
+2413000	3175000
+
+PATH	U	2	127000	2413000	3238500
+2413000	3937000
+
+PATH	U	2	127000	2921000	2413000
+3175000	2413000
+3175000	3048000
+2984500	3238500
+2413000	3238500
+
+.rou
+"$26"
+
+PATH	U	2	127000	2921000	2667000
+2921000	2921000
+
+PATH	U	2	127000	2921000	2667000
+2540000	2667000
+2159000	2286000
+2159000	1905000
+3175000	889000
+4337000	889000
+4337000	1142000
+
+.rou
+"$17"
+
+PATH	U	2	127000	6604000	2794000
+5905500	3492500
+5842000	3429000
+
+.rou
+"$21"
+
+PATH	U	2	127000	5422000	1142000
+5422000	1294500
+5588000	1460500
+5588000	1721419
+5644581	1778000
+5969000	1778000
+
+PATH	U	2	127000	5207000	2794000
+5207000	3048000
+
+.rou
+"$30"
+
+PATH	U	2	127000	7747000	1143000
+7429500	825500
+7175500	825500
+7112000	889000
+4670500	889000
+4607000	952500
+4607000	1142000
+
+.rou
+"$8"
+
+PATH	U	2	127000	4826000	2032000
+4826000	1714500
+4762500	1651000
+4762500	1422000
+4747000	1422000
+
+.rou
+"$31"
+
+PATH	U	2	127000	5697000	1142000
+6096000	1142000
+6096000	1333500
+6413500	1651000
+6739000	1651000
+7247000	1143000
+
+.rou
+"$24"
+
+PATH	U	2	127000	2667000	4191000
+2667000	4318000
+3302000	4318000
+
+.rou
+"$9"
+
+PATH	U	2	127000	4254500	2286000
+4254500	2095500
+4572000	2095500
+4826000	2349500
+4826000	2794000
+
+.eof

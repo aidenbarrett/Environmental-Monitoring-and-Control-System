@@ -1,0 +1,30 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
+{\fonttbl\f0\fnil\fcharset0 Verdana;}
+{\colortbl;\red255\green255\blue255;\red14\green14\blue14;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs26 \cf2 \expnd0\expndtw0\kerning0
+For the Sensor Board Schematic, the value for R1 needed to be calculated. R1 is the base resistor for the Transistor TR1. This calculation was pretty straightforward, and \'a0just required me to make sure that I was taking the appropriate values from the data sheets of the components.\
+I calculated TR1\'92s Collector Current, used that to calculate TR1\'92s Base Current, and used that to find a value for TR1\'92s Base Resistance, which will tell me what value to use for R1.\
+\
+First, I needed to calculate the Current coming in to the Collector of TR1. This Current is the sum of the Currents drawn by the LED and the Fan.\
+From the Fan\'92s data sheet, it draws 0.245 A.\
+For the LED, I used Ohm\'92s Law to find the Current. The voltage is the 5 V source minus 0.7 V (voltage drop of 0.7 V across the LED), so 4.3 V. The resistance is the value of the current limiting resistor, 220 \uc0\u937 .\
+Therefore the Current drawn by the LED:\
+I = 4.3 V/220 \uc0\u937 \
+I = 0.0195 A\
+Adding this to the Current drawn by the Fan gives:\
+I = 0.0195 A + 0.245 A\
+I = 0.2645 A\
+We now know that TR1\'92s Collector Current is 0.2645 A.\
+For a Transistor, its Base Current is equal to its Collector Current divided by the Transistor\'92s \uc0\u946 \'a0value. From the BC337 data sheet, the range given for\'a0\u946  is 100 \'96 630. I will use 100 for\'a0\u946 , as this is the worst case scenario.\
+Plugging values in for the Base Current:\
+I = 0.2645 A/100\
+I = 0.002645 A\
+With a Base Current\'a0value of 0.002645 A, we can now calculate a Base Resistance value for TR1:\
+R = V/I\
+R = 4.3 V/0.002645 A\
+R = 1625.71\'a0\uc0\u937 \
+Taking a factor of safety of 2 into account would give us a Resistor value of around 800\'a0\uc0\u937 . This is quite small however, so I decided to use a value in between these 2 values. After checking the available resistor values from our manufacturer, there is a resistor value of 1200\'a0\u937 . As this is about mid way between the 2 values, this is the Resistance value I chose for R1.}

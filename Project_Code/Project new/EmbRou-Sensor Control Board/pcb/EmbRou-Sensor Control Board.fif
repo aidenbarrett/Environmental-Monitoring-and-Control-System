@@ -1,0 +1,1215 @@
+.DATESTAMP "2/26/2015"
+.VERSION "3.7"
+.DESIGNTECH VIAS_ALLOWED 2 3 1 4 .DESIGNTECH_END
+.AREA
+"Board" 8e I M U A ffffffff ffffffff
+ 1360f0 4d83c0 87a690 4d83c0 0 
+ 87a690 4d83c0 87a690 7c060 0 
+ 87a690 7c060 1360f0 7c060 0 
+ 1360f0 7c060 1360f0 4d83c0 0 
+.AS
+ .AC 64 .AE
+.LAYR
+"Top Placement" 1 P
+"Top" 2 E
+"Bot" 3 E
+"Placement4" 4 P
+.PREC 0 0 3072580 3072580
+.LS 7710 7710 7710 7710 7710 7710 7710 7710 7710
+.PD
+1 0 -17412 -17412 17412 17412
+2 0 -18ce0 -18ce0 18ce0 18ce0
+3 0 -18ce0 -18ce0 18ce0 18ce0
+4 0 -2e824 -2e824 2e824 2e824
+5 0 -129a8 -129a8 129a8 129a8
+6 0 -1f018 -1f018 1f018 1f018
+7 0 -14276 -14276 14276 14276
+8 0 -14276 -14276 14276 14276
+9 0 -1be7c -1be7c 1be7c 1be7c
+a 0 -1d74a -1d74a 1d74a 1d74a
+b 0 -1d74a -1d74a 1d74a 1d74a
+c 0 -2e824 -2e824 2e824 2e824
+d 0 -14276 -14276 14276 14276
+e 0 -14276 -14276 14276 14276
+.DE
+.SYMB
+.SST
+46 "4mm hole"
+.SA
+.SYMALTNAME "ITB"
+.USA 0
+.ST
+ 0 0
+.TE
+.SS
+.SE
+.OA
+.SWA 0
+.ST
+ 0 0
+.TE
+.SS
+.SE
+.OA
+.AE
+.SST
+32 "D TYPE 15 PCB PLUG"
+.SA
+.SYMALTNAME "ITB-2013"
+.USA 0
+.ST
+ -1388 3a98
+ -445c0 3a98
+ -86470 3a98
+ -c8320 61a8
+ -10b558 61a8
+ -14e790 7530
+ -192d50 7530
+ -1d5f88 88b8
+ -23668 -3e418
+ -668a0 -3e418
+ -a73c8 -3f7a0
+ -ea600 -3f7a0
+ -12d838 -3e418
+ -16f6e8 -3e418
+ -1b2920 -3e418
+ -27fa60 -1c138
+ afc80 -1adb0
+.TE
+.SS
+.SE
+.OA
+.SWA 0
+.ST
+ -1388 3a98
+ -445c0 3a98
+ -86470 3a98
+ -c8320 61a8
+ -10b558 61a8
+ -14e790 7530
+ -192d50 7530
+ -1d5f88 88b8
+ -23668 -3e418
+ -668a0 -3e418
+ -a73c8 -3f7a0
+ -ea600 -3f7a0
+ -12d838 -3e418
+ -16f6e8 -3e418
+ -1b2920 -3e418
+ -27fa60 -1c138
+ afc80 -1adb0
+.TE
+.SS
+.SE
+.OA
+.AE
+.SST
+23 "Diode"
+.SA
+.SYMALTNAME "250x125"
+.USA 0
+.ST
+ 0 0
+ f80c0 0
+.TE
+.SS
+.SE
+.OA
+.SWA 0
+.ST
+ 0 0
+ f80c0 0
+.TE
+.SS
+.SE
+.OA
+.AE
+.SST
+2d "DIP8"
+.SA
+.SYMALTNAME " "
+.USA 0
+.ST
+ 0 0
+ 3e030 0
+ 7c060 0
+ ba090 0
+ ba090 ba090
+ 7c060 ba090
+ 3e030 ba090
+ 0 ba090
+.TE
+.SS
+ 1 
+ -1f018 -1f018 -3e030 0 0 
+ -3e030 0 -3e030 d90a8 0 
+ -3e030 d90a8 f80c0 d90a8 0 
+ f80c0 d90a8 f80c0 -1f018 0 
+ f80c0 -1f018 -1f018 -1f018 0 
+.BE
+.SE
+.OA
+.SWA 0
+.ST
+ 0 0
+ 3e030 0
+ 7c060 0
+ ba090 0
+ ba090 ba090
+ 7c060 ba090
+ 3e030 ba090
+ 0 ba090
+.TE
+.SS
+ 4 
+ -1f018 -1f018 -3e030 0 0 
+ -3e030 0 -3e030 d90a8 0 
+ -3e030 d90a8 f80c0 d90a8 0 
+ f80c0 d90a8 f80c0 -1f018 0 
+ f80c0 -1f018 -1f018 -1f018 0 
+.BE
+.SE
+.OA
+.AE
+.SST
+f "ITB PCB CON 2-way"
+.SA
+.SYMALTNAME " "
+.USA 0
+.ST
+ 0 0
+ 7a120 0
+.TE
+.SS
+.SE
+.OA
+.SWA 0
+.ST
+ 0 0
+ 7a120 0
+.TE
+.SS
+.SE
+.OA
+.AE
+.SST
+28 "LED"
+.SA
+.SYMALTNAME "ITB 2013"
+.USA 0
+.ST
+ -1f018 0
+ 1f018 0
+.TE
+.SS
+ 1 
+ 0 -3e030 0 3e030 -3fff 
+ 0 3e030 0 -3e030 -3fff 
+.BE
+.SE
+.OA
+.SWA 0
+.ST
+ -1f018 0
+ 1f018 0
+.TE
+.SS
+ 4 
+ 0 -3e030 0 3e030 -3fff 
+ 0 3e030 0 -3e030 -3fff 
+.BE
+.SE
+.OA
+.AE
+.SST
+41 "Pads 10mm"
+.SA
+.SYMALTNAME "10mmx5mm"
+.USA 0
+.ST
+ 0 0
+ f80c0 0
+.TE
+.SS
+ 1 
+ f80c 493e0 e88b4 493e0 0 
+ e88b4 493e0 e88b4 -493e0 0 
+ e88b4 -493e0 f80c -493e0 0 
+ f80c -493e0 f80c 493e0 0 
+.BE
+.SE
+.OA
+.SWA 0
+.ST
+ 0 0
+ f80c0 0
+.TE
+.SS
+ 4 
+ f80c 493e0 e88b4 493e0 0 
+ e88b4 493e0 e88b4 -493e0 0 
+ e88b4 -493e0 f80c -493e0 0 
+ f80c -493e0 f80c 493e0 0 
+.BE
+.SE
+.OA
+.AE
+.SST
+14 "Phoenix CON 2-way"
+.SA
+.SYMALTNAME "ITB"
+.USA 0
+.ST
+ 0 0
+ 493e0 0
+.TE
+.SS
+.SE
+.OA
+.SWA 0
+.ST
+ 0 0
+ 493e0 0
+.TE
+.SS
+.SE
+.OA
+.AE
+.SST
+5 "RES"
+.SA
+.SYMALTNAME "0.25W"
+.USA 0
+.ST
+ 0 0
+ ba090 0
+.TE
+.SS
+.SE
+.OA
+.SWA 0
+.ST
+ 0 0
+ ba090 0
+.TE
+.SS
+.SE
+.OA
+.SA
+.SYMALTNAME "0.25W ITB 2013"
+.USA 1
+.ST
+ 0 0
+ ba090 0
+.TE
+.SS
+.SE
+.OA
+.SWA 1
+.ST
+ 0 0
+ ba090 0
+.TE
+.SS
+.SE
+.OA
+.SA
+.SYMALTNAME "0.5W ITB 2013"
+.USA 2
+.ST
+ 0 0
+ 1170d8 0
+.TE
+.SS
+.SE
+.OA
+.SWA 2
+.ST
+ 0 0
+ 1170d8 0
+.TE
+.SS
+.SE
+.OA
+.AE
+.SST
+37 "TO92"
+.SA
+.SYMALTNAME "123"
+.USA 0
+.ST
+ 0 0
+ 2e824 0
+ 5d048 0
+.TE
+.SS
+ 1 
+ 7c060 4d83c 7c060 -1f018 0 
+ 7c060 -1f018 -1f018 -1f018 0 
+ -1f018 -1f018 -1f018 4d83c 0 
+.BE
+ 1 
+ -1f018 4d83c 7c060 4d83c 0 
+.BE
+.SE
+.OA
+.SWA 0
+.ST
+ 0 0
+ 2e824 0
+ 5d048 0
+.TE
+.SS
+ 4 
+ 7c060 4d83c 7c060 -1f018 0 
+ 7c060 -1f018 -1f018 -1f018 0 
+ -1f018 -1f018 -1f018 4d83c 0 
+.BE
+ 4 
+ -1f018 4d83c 7c060 4d83c 0 
+.BE
+.SE
+.OA
+.AE
+.SST
+19 "VishayT7 Trimmer"
+.SA
+.SYMALTNAME "ITB"
+.USA 0
+.ST
+ 0 0
+ -3e030 3e030
+ 0 7c060
+.TE
+.SS
+.SE
+.OA
+.SWA 0
+.ST
+ 0 0
+ -3e030 3e030
+ 0 7c060
+.TE
+.SS
+.SE
+.OA
+.AE
+.SST
+a "Vishnay BPW34 Photodiode"
+.SA
+.SYMALTNAME "10mmx5mm"
+.USA 0
+.ST
+ 0 0
+ 7c060 0
+.TE
+.SS
+ 1 
+ f80c 493e0 7c060 493e0 0 
+ 7c060 493e0 7c060 -493e0 0 
+ 7c060 -493e0 f80c -493e0 0 
+ f80c -493e0 f80c 493e0 0 
+.BE
+.SE
+.OA
+.SWA 0
+.ST
+ 0 0
+ 7c060 0
+.TE
+.SS
+ 4 
+ f80c 493e0 7c060 493e0 0 
+ 7c060 493e0 7c060 -493e0 0 
+ 7c060 -493e0 f80c -493e0 0 
+ f80c -493e0 f80c 493e0 0 
+.BE
+.SE
+.OA
+.AE
+.ELEM
+3 "THERMISTOR"
+.ET 1 2 .TE
+8 "BPW34"
+.ET 1 2 .TE
+d "PCB CON 2 Way"
+.ET 1 1 .TE
+12 "DCMotor"
+.ET 1 2 .TE
+17 "VISHAY T7 POT"
+.ET 1 2 3 .TE
+1c "TH0W5/RNV"
+.ET 1 1 .TE
+21 "1N4004"
+.ET 1 2 .TE
+26 "LED 3mm GRN"
+.ET 1 2 .TE
+2b "LM358"
+.ET 1 2 3 4 5 6 7 8 .TE
+30 "D-type 15 Pin Skt"
+.ET 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 3 .TE
+35 "BC337"
+.ET 1 2 3 .TE
+3a "TH0W25/RNV"
+.ET 1 1 .TE
+3f "HCZ-J3"
+.ET 1 1 .TE
+44 "4mm Hole"
+.ET 1 .TE
+49 "VishayT7 Trimmer"
+.ET 1 2 3 .TE
+4d "TO92"
+.ET 1 2 3 .TE
+51 "RES"
+.ET 1 2 .TE
+55 "Phoenix CON 2-way"
+.ET 1 2 .TE
+59 "LED"
+.ET 1 2 .TE
+5d "DIP8"
+.ET 1 2 3 4 5 6 7 8 .TE
+61 "4mm hole"
+.ET 1 .TE
+65 "Pads 10mm"
+.ET 1 2 .TE
+69 "Vishnay BPW34 Photodiode"
+.ET 1 2 .TE
+6d "Diode"
+.ET 1 2 .TE
+71 "ITB PCB CON 2-way"
+.ET 1 2 .TE
+75 "D TYPE 15 PCB PLUG"
+.ET 1 2 3 4 5 6 7 8 9 a b c d e f 10 11 .TE
+.PACK
+2 "RES(THERMISTOR)" 5 A 2 0
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+"0.25W"
+1
+1
+"0.25W ITB 2013"
+6
+6
+"0.5W ITB 2013"
+6
+6
+.PAE
+7 "Vishnay BPW34 Photodiode(BPW34)" a A 2 0
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+"10mmx5mm"
+2
+3
+.PAE
+c "ITB PCB CON 2-way(PCB CON 2 Way)" f A 2 0
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+" "
+4
+4
+.PAE
+11 "Phoenix CON 2-way(DCMotor)" 14 A 2 0
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+"ITB"
+3
+3
+.PAE
+16 "VishayT7 Trimmer(VISHAY T7 POT)" 19 A 3 0
+.PACKPINNAMES
+ "1"
+ "2"
+ "3"
+.PACKPINNAMES_END
+.PAS
+"ITB"
+5
+5
+5
+.PAE
+1b "RES(TH0W5/RNV)" 5 A 2 0
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+"0.25W"
+1
+1
+"0.25W ITB 2013"
+6
+6
+"0.5W ITB 2013"
+6
+6
+.PAE
+20 "Diode(1N4004)" 23 A 2 0
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+"250x125"
+7
+8
+.PAE
+25 "LED(LED 3mm GRN)" 28 A 2 0
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+"ITB 2013"
+9
+9
+.PAE
+2a "DIP8(LM358)" 2d A 8 0
+.PACKPINNAMES
+ "1"
+ "2"
+ "3"
+ "4"
+ "5"
+ "6"
+ "7"
+ "8"
+.PACKPINNAMES_END
+.PAS
+" "
+2
+3
+3
+3
+3
+3
+3
+3
+.PAE
+2f "D TYPE 15 PCB PLUG(D-type 15 Pin Skt)" 32 A 11 0
+.PACKPINNAMES
+ "1"
+ "2"
+ "3"
+ "4"
+ "5"
+ "6"
+ "7"
+ "8"
+ "9"
+ "10"
+ "11"
+ "12"
+ "13"
+ "14"
+ "15"
+ "16"
+ "17"
+.PACKPINNAMES_END
+.PAS
+"ITB-2013"
+a
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+c
+c
+.PAE
+34 "TO92(BC337)" 37 A 3 0
+.PACKPINNAMES
+ "1"
+ "2"
+ "3"
+.PACKPINNAMES_END
+.PAS
+"123"
+d
+e
+e
+.PAE
+39 "RES(TH0W25/RNV)" 5 A 2 0
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+"0.25W"
+1
+1
+"0.25W ITB 2013"
+6
+6
+"0.5W ITB 2013"
+6
+6
+.PAE
+3e "Pads 10mm(HCZ-J3)" 41 A 2 0
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+"10mmx5mm"
+2
+3
+.PAE
+43 "4mm hole(4mm Hole)" 46 A 1 0
+.PACKPINNAMES
+ "1"
+.PACKPINNAMES_END
+.PAS
+"ITB"
+c
+.PAE
+48 "VishayT7 Trimmer" 19 A 3 0
+.PACKPINNAMES
+ "1"
+ "2"
+ "3"
+.PACKPINNAMES_END
+.PAS
+"ITB"
+5
+5
+5
+.PAE
+4c "TO92" 37 A 3 0
+.PACKPINNAMES
+ "1"
+ "2"
+ "3"
+.PACKPINNAMES_END
+.PAS
+"123"
+d
+e
+e
+.PAE
+50 "RES" 5 A 2 0
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+"0.25W"
+1
+1
+"0.25W ITB 2013"
+6
+6
+"0.5W ITB 2013"
+6
+6
+.PAE
+54 "Phoenix CON 2-way" 14 A 2 0
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+"ITB"
+3
+3
+.PAE
+58 "LED" 28 A 2 0
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+"ITB 2013"
+9
+9
+.PAE
+5c "DIP8" 2d A 8 0
+.PACKPINNAMES
+ "1"
+ "2"
+ "3"
+ "4"
+ "5"
+ "6"
+ "7"
+ "8"
+.PACKPINNAMES_END
+.PAS
+" "
+2
+3
+3
+3
+3
+3
+3
+3
+.PAE
+60 "4mm hole" 46 A 1 0
+.PACKPINNAMES
+ "1"
+.PACKPINNAMES_END
+.PAS
+"ITB"
+c
+.PAE
+64 "Pads 10mm" 41 A 2 0
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+"10mmx5mm"
+2
+3
+.PAE
+68 "Vishnay BPW34 Photodiode" a A 2 0
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+"10mmx5mm"
+2
+3
+.PAE
+6c "Diode" 23 A 2 0
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+"250x125"
+7
+8
+.PAE
+70 "ITB PCB CON 2-way" f A 2 0
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+" "
+4
+4
+.PAE
+74 "D TYPE 15 PCB PLUG" 32 A 11 0
+.PACKPINNAMES
+ "1"
+ "2"
+ "3"
+ "4"
+ "5"
+ "6"
+ "7"
+ "8"
+ "9"
+ "10"
+ "11"
+ "12"
+ "13"
+ "14"
+ "15"
+ "16"
+ "17"
+.PACKPINNAMES_END
+.PAS
+"ITB-2013"
+a
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+c
+c
+.PAE
+.PART
+1 "THERMISTOR" .PACAT O "XXX" "default" 2 3
+.PM
+
+ 1 1 2 2 .PP
+.PARTPINS
+UNCOMMITTED ""
+UNCOMMITTED ""
+.PARTPINS_END
+6 "BPW34" .PACAT O "XXX" "default" 7 8
+.PM
+
+ 1 1 2 2 .PP
+.PARTPINS
+UNCOMMITTED ""
+UNCOMMITTED ""
+.PARTPINS_END
+b "PCB CON 2 Way" .PACAT O "XXX" "default" c d
+.PM
+
+ 1 1 2 2 .PP
+.PARTPINS
+UNCOMMITTED ""
+UNCOMMITTED ""
+.PARTPINS_END
+10 "DCMotor" .PACAT O "XXX" "default" 11 12
+.PM
+
+ 1 1 2 2 .PP
+.PARTPINS
+UNCOMMITTED ""
+UNCOMMITTED ""
+.PARTPINS_END
+15 "VISHAY T7 POT" .PACAT O "XXX" "default" 16 17
+.PM
+
+ 1 1 2 2 3 3 .PP
+.PARTPINS
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+.PARTPINS_END
+1a "TH0W5/RNV" .PACAT O "XXX" "default" 1b 1c
+.PM
+
+ 1 1 2 2 .PP
+.PARTPINS
+UNCOMMITTED ""
+UNCOMMITTED ""
+.PARTPINS_END
+1f "1N4004" .PACAT O "XXX" "default" 20 21
+.PM
+
+ 1 1 2 2 .PP
+.PARTPINS
+UNCOMMITTED ""
+UNCOMMITTED ""
+.PARTPINS_END
+24 "LED 3mm GRN" .PACAT O "XXX" "default" 25 26
+.PM
+
+ 1 1 2 2 .PP
+.PARTPINS
+UNCOMMITTED ""
+UNCOMMITTED ""
+.PARTPINS_END
+29 "LM358" .PACAT O "XXX" "default" 2a 2b
+.PM
+
+ 1 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 .PP
+.PARTPINS
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+.PARTPINS_END
+2e "D-type 15 Pin Skt" .PACAT O "XXX" "default" 2f 30
+.PM
+
+ 1 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9 a a b b c c d d e e f f 10 10 11 11 .PP
+.PARTPINS
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+.PARTPINS_END
+33 "BC337" .PACAT O "XXX" "default" 34 35
+.PM
+
+ 1 1 2 2 3 3 .PP
+.PARTPINS
+UNCOMMITTED ""
+UNCOMMITTED ""
+UNCOMMITTED ""
+.PARTPINS_END
+38 "TH0W25/RNV" .PACAT O "XXX" "default" 39 3a
+.PM
+
+ 1 1 2 2 .PP
+.PARTPINS
+UNCOMMITTED ""
+UNCOMMITTED ""
+.PARTPINS_END
+3d "HCZ-J3" .PACAT O "XXX" "default" 3e 3f
+.PM
+
+ 1 1 2 2 .PP
+.PARTPINS
+UNCOMMITTED ""
+UNCOMMITTED ""
+.PARTPINS_END
+42 "4mm Hole" .PACAT O "XXX" "default" 43 44
+.PM
+
+ 1 1 .PP
+.PARTPINS
+UNCOMMITTED ""
+.PARTPINS_END
+47 "VishayT7 Trimmer" .PACAT O "XXX" "default" 48 49
+.PM
+
+ 1 1 2 2 3 3 .PP
+
+4b "TO92" .PACAT O "XXX" "default" 4c 4d
+.PM
+
+ 1 1 2 2 3 3 .PP
+
+4f "RES" .PACAT O "XXX" "default" 50 51
+.PM
+
+ 1 1 2 2 .PP
+
+53 "Phoenix CON 2-way" .PACAT O "XXX" "default" 54 55
+.PM
+
+ 1 1 2 2 .PP
+
+57 "LED" .PACAT O "XXX" "default" 58 59
+.PM
+
+ 1 1 2 2 .PP
+
+5b "DIP8" .PACAT O "XXX" "default" 5c 5d
+.PM
+
+ 1 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 .PP
+
+5f "4mm hole" .PACAT O "XXX" "default" 60 61
+.PM
+
+ 1 1 .PP
+
+63 "Pads 10mm" .PACAT O "XXX" "default" 64 65
+.PM
+
+ 1 1 2 2 .PP
+
+67 "Vishnay BPW34 Photodiode" .PACAT O "XXX" "default" 68 69
+.PM
+
+ 1 1 2 2 .PP
+
+6b "Diode" .PACAT O "XXX" "default" 6c 6d
+.PM
+
+ 1 1 2 2 .PP
+
+6f "ITB PCB CON 2-way" .PACAT O "XXX" "default" 70 71
+.PM
+
+ 1 1 2 2 .PP
+
+73 "D TYPE 15 PCB PLUG" .PACAT O "XXX" "default" 74 75
+.PM
+
+ 1 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9 a a b b c c d d e e f f 10 10 11 11 .PP
+
+.PCAT
+"default" 0 167 1 0 "T" 1 1f018 1f018
+.TREE
+8f 0 "$9" "1" "" 0 ""
+90 0 "$24" "1" "" 0 ""
+91 0 "$31" "1" "" 0 ""
+92 0 "$8" "1" "" 0 ""
+93 0 "$30" "1" "" 0 ""
+94 0 "$21" "1" "" 0 ""
+95 0 "$17" "1" "" 0 ""
+96 0 "$26" "1" "" 0 ""
+97 0 "$22" "1" "" 0 ""
+98 0 "$13" "1" "" 0 ""
+99 0 "$14" "1" "" 0 ""
+9a 0 "P5V" "1" "" 0 ""
+9b 0 "$7" "1" "" 0 ""
+9c 0 "GND" "1" "" 0 ""
+9d 0 "$19" "1" "" 0 ""
+9e 0 "$5" "1" "" 0 ""
+.COMP
+77 1 "RTH1" 2  6a9528 3832b8 0 0 1 0 "default" "" -1 -1
+.CP
+9d 1 0 1 "" ""
+9c 1 0 1 "" ""
+.PE
+78 6 "D2" 2  62d4c8 3832b8 4000 0 1 0 "default" "" -1 -1
+.CP
+9e 1 0 2 "" ""
+9a 1 0 3 "" ""
+.PE
+79 b "CON3" 2  7635b8 1170d8 8000 0 1 0 "default" "" -1 -1
+.CP
+93 1 0 4 "" ""
+91 1 0 4 "" ""
+.PE
+7a 10 "M1" 2  3832b8 3a22d0 c000 0 1 0 "default" "" -1 -1
+.CP
+9a 1 0 3 "" ""
+99 1 0 3 "" ""
+.PE
+7b 15 "VR2" 3  28b1f8 3832b8 0 0 1 0 "default" "" -1 -1
+.CP
+0 1 0 5 "" ""
+97 1 0 5 "" ""
+90 1 0 5 "" ""
+.PE
+7c 1a "R3" 2  49a390 3ff318 c000 2 1 0 "default" "" -1 -1
+.CP
+9a 1 0 6 "" ""
+98 1 0 6 "" ""
+.PE
+7d 1f "D1" 2  5163f0 326270 4000 0 1 0 "default" "" -1 -1
+.CP
+99 1 0 7 "" ""
+9a 1 0 8 "" ""
+.PE
+7e 24 "LED1" 2  41e330 2c9228 c000 0 1 0 "default" "" -1 -1
+.CP
+98 1 0 9 "" ""
+99 1 0 9 "" ""
+.PE
+7f 15 "VR1" 3  64c4e0 22e1b0 0 0 1 0 "default" "" -1 -1
+.CP
+0 1 0 5 "" ""
+9d 1 0 5 "" ""
+95 1 0 5 "" ""
+.PE
+80 29 "IC2" 8  2c9228 2c9228 c000 0 1 0 "default" "" -1 -1
+.CP
+96 1 0 2 "" ""
+96 1 0 3 "" ""
+97 1 0 3 "" ""
+9c 1 0 3 "" ""
+0 1 0 3 "" ""
+0 1 0 3 "" ""
+0 1 0 3 "" ""
+9a 1 0 3 "" ""
+.PE
+81 1a "R4" 2  43d348 41e330 8000 2 1 0 "default" "" -1 -1
+.CP
+9a 1 0 6 "" ""
+90 1 0 6 "" ""
+.PE
+82 2e "CON1" 11  592450 155108 0 0 1 0 "default" "" -1 -1
+.CP
+0 1 0 a "" ""
+0 1 0 b "" ""
+0 1 0 b "" ""
+9c 1 0 b "" ""
+92 1 0 b "" ""
+0 1 0 b "" ""
+0 1 0 b "" ""
+0 1 0 b "" ""
+91 1 0 b "" ""
+94 1 0 b "" ""
+9b 1 0 b "" ""
+0 1 0 b "" ""
+93 1 0 b "" ""
+96 1 0 b "" ""
+0 1 0 b "" ""
+0 1 0 c "" ""
+0 1 0 c "" ""
+.PE
+83 33 "TR1" 3  43d348 22e1b0 8000 0 1 0 "default" "" -1 -1
+.CP
+99 1 0 d "" ""
+8f 1 0 e "" ""
+9c 1 0 e "" ""
+.PE
+84 38 "R1" 2  49a390 1f0180 4000 1 1 0 "default" "" -1 -1
+.CP
+92 1 0 6 "" ""
+8f 1 0 6 "" ""
+.PE
+85 3d "H1" 2  24d1c8 20f198 4000 0 1 0 "default" "" -1 -1
+.CP
+9c 1 0 2 "" ""
+97 1 0 3 "" ""
+.PE
+86 b "CON2" 2  7445a0 20f198 4000 0 1 0 "default" "" -1 -1
+.CP
+9a 1 0 4 "" ""
+9c 1 0 4 "" ""
+.PE
+87 29 "IC1" 8  4f73d8 2e8240 c000 0 1 0 "default" "" -1 -1
+.CP
+94 1 0 2 "" ""
+94 1 0 3 "" ""
+9d 1 0 3 "" ""
+9c 1 0 3 "" ""
+9e 1 0 3 "" ""
+9b 1 0 3 "" ""
+9b 1 0 3 "" ""
+9a 1 0 3 "" ""
+.PE
+88 38 "R2" 2  592450 3ff318 c000 1 1 0 "default" "" -1 -1
+.CP
+9a 1 0 6 "" ""
+95 1 0 6 "" ""
+.PE
+89 1a "R6" 2  62d4c8 326270 0 2 1 0 "default" "" -1 -1
+.CP
+9e 1 0 6 "" ""
+9c 1 0 6 "" ""
+.PE
+8a 42 "H5" 1  972750 326270 0 0 1 0 "default" "" -1 -1
+.CP
+0 1 0 c "" ""
+.PE
+8b 42 "H4" 1  991768 2aa210 0 0 1 0 "default" "" -1 -1
+.CP
+0 1 0 c "" ""
+.PE
+8c 42 "H3" 1  9b0780 20f198 0 0 1 0 "default" "" -1 -1
+.CP
+0 1 0 c "" ""
+.PE
+8d 42 "H2" 1  934720 22e1b0 0 0 1 0 "default" "" -1 -1
+.CP
+0 1 0 c "" ""
+.PE
+.WG
+ f80c f80c 0 0
+.PIFEND
+.STARTPOF
